@@ -1,9 +1,11 @@
 {
 .appVersion = "1352";
 DisplayStrings = (
-abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz,
+ABCDEFGHIJKLMNOPQRSTUVWXYZ,
+"/n.ss01 oHOt"
 );
-copyright = "Copyright 2004-2021 The Moon Dance Project Authors (https://github.com/googlefonts/shalimar)";
+copyright = "Copyright 2004-2021 The Shalimar Project Authors (https://github.com/googlefonts/shalimar)";
 customParameters = (
 {
 name = licenseURL;
@@ -111,9 +113,58 @@ name = ss01;
 );
 fontMaster = (
 {
-ascender = 800;
+alignmentZones = (
+"{590, 10}",
+"{560, 15}",
+"{315, 15}",
+"{0, -10}",
+"{-380, -10}"
+);
+ascender = 590;
 capHeight = 560;
 custom = "Shalimar Pro";
+customParameters = (
+{
+name = typoAscender;
+value = 950;
+},
+{
+name = typoDescender;
+value = -350;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 950;
+},
+{
+name = hheaDescender;
+value = -350;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1358;
+},
+{
+name = winDescent;
+value = 536;
+},
+{
+name = strikeoutPosition;
+value = 308;
+},
+{
+name = strikeoutSize;
+value = 59;
+}
+);
 descender = -380;
 guideLines = (
 {
@@ -133,11 +184,20 @@ locked = 1;
 position = "{99, 741}";
 }
 );
+horizontalStems = (
+29,
+33
+);
 id = "CE757C0C-4E55-453C-A2E3-610759FCFE83";
 userData = {
 GSOffsetHorizontal = -3;
 GSOffsetVertical = -5;
 };
+verticalStems = (
+28,
+30,
+41
+);
 weightValue = 400;
 xHeight = 315;
 }
@@ -27274,9 +27334,14 @@ unicode = 006D;
 {
 color = 5;
 glyphname = n;
-lastChange = "2021-10-11 21:59:08 +0000";
+lastChange = "2021-10-11 22:02:17 +0000";
 layers = (
 {
+guideLines = (
+{
+position = "{84, 315}";
+}
+);
 layerId = "CE757C0C-4E55-453C-A2E3-610759FCFE83";
 paths = (
 {
@@ -61990,6 +62055,19 @@ name = Regular;
 manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"CE757C0C-4E55-453C-A2E3-610759FCFE83" = {
+HH = "29";
+HV = "30";
+OH = "38";
+OV = "41";
+nV = "28";
+oH = "33";
+oV = "37";
+};
+};
+};
 versionMajor = 1;
 versionMinor = 3;
 }
